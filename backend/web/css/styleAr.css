@@ -1,0 +1,338 @@
+body {
+  font-family: "Cairo", sans-serif !important;
+  direction: rtl;
+}
+
+.tooltip {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.login-box,
+.register-box {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.main-header .logo {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.upload-kit .upload-kit-input,
+.upload-kit .upload-kit-item {
+  float: right;
+  margin: 10px 0 0 0;
+}
+
+.upload-kit .files {
+  float: right;
+}
+
+.sidebar .user-profile .profile-img {
+  margin-right: 30px;
+}
+
+.navbar-nav > li {
+  float: right;
+}
+
+.close {
+  float: left !important;
+}
+
+.pull-right {
+  float: left !important;
+}
+
+.pull-left {
+  float: right !important;
+}
+
+.table thead th a,
+.table th a {
+  float: right;
+}
+
+.nav-tabs {
+  padding: 0;
+}
+
+.nav-tabs .header .hydrated {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.kv-tree-wrapper {
+  direction: ltr;
+}
+
+.kv-tree-wrapper h1 {
+  direction: rtl;
+}
+
+.kv-tree-wrapper .row .col-sm-3 .kv-detail-container,
+.kv-tree-wrapper .row .col-sm-9 .kv-detail-container {
+  direction: rtl;
+}
+
+.kv-detail-crumbs {
+  padding-top: 10px;
+  float: right;
+  margin-right: 15px;
+}
+
+.checkbox input[type="checkbox"],
+label.checkbox-inline input[type="checkbox"] {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+.main-header .user-menu .dropdown-menu {
+  width: 340px;
+}
+
+.error img {
+  float: left;
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > thead > tr > td {
+  border-bottom-width: 2px;
+  text-align: right;
+}
+
+.nav-tabs > li {
+  float: right;
+}
+
+.table.detail-view th {
+  text-align: right;
+}
+
+.grid-form .form-group {
+  margin-right: 0;
+  margin-left: 1%;
+}
+
+.kv-grid-toolbar .dropdown-menu li a i {
+  float: left;
+}
+
+.kv-checkbox-list li .checkbox label {
+  text-align: right;
+}
+
+.sidebar-mini.sidebar-collapse .profile-text {
+  display: none;
+}
+
+.sidebar-mini.sidebar-collapse .profile-img {
+  margin: 0;
+  padding: 5px;
+}
+
+.sidebar-mini.sidebar-collapse .profile-img::before {
+  display: none;
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-menu > li:hover > a > .pull-right-container {
+  right: 175px !important;
+}
+
+.error .col-xs-1,
+.error .col-xs-2,
+.error .col-xs-3,
+.error .col-xs-4,
+.error .col-xs-5,
+.error .col-xs-6,
+.error .col-xs-7,
+.error .col-xs-8,
+.error .col-xs-9,
+.error .col-xs-10,
+.error .col-xs-11,
+.error .col-xs-12 {
+  float: right;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+  padding-left: 0;
+  padding-right: 10px;
+  direction: rtl;
+}
+
+.kv-batch-create i {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.treeView .row .col-sm-3,
+.treeView .row .col-sm-9,
+.treeView .row .col-sm-6 {
+  float: right;
+  text-align: right;
+  direction: rtl;
+}
+
+.treeView .kv-tree-list .kv-node-icon {
+  float: right;
+  margin-right: 10px;
+}
+
+.treeView .kv-search-container {
+  float: left;
+}
+
+.treeView .kv-search-container .kv-search-clear {
+  position: absolute;
+  padding: 10px;
+  right: auto;
+  left: 0;
+}
+
+.treeView .kv-tree li {
+  padding-left: 0;
+  border: dotted #333;
+  border-width: 0px 1px 1px 0px;
+  line-height: 1.9;
+  padding-right: 0.75em;
+}
+
+.treeView .kv-tree li ul {
+  border-top: 1px dotted #333;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: -0.75em;
+  padding-right: 1.4em;
+}
+
+.treeView ul.kv-tree,
+.treeView .kv-tree ul {
+  padding-left: 0;
+  padding-right: 0.73em;
+}
+
+.treeView .kv-detail-heading .pull-right {
+  float: left !important;
+}
+
+.treeView .kv-detail-heading {
+  padding: 5px 15px 5px 5px;
+}
+
+.select2-container--krajee .select2-selection--single .select2-selection__clear {
+  right: auto;
+  left: 10px;
+}
+
+.btns-list .btn {
+  margin: 0 5px 0 0;
+}
+
+form .col-xs-1,
+form .col-sm-1,
+form .col-md-1,
+form .col-lg-1,
+form .col-xs-2,
+form .col-sm-2,
+form .col-md-2,
+form .col-lg-2,
+form .col-xs-3,
+form .col-sm-3,
+form .col-md-3,
+form .col-lg-3,
+form .col-xs-4,
+form .col-sm-4,
+form .col-md-4,
+form .col-lg-4,
+form .col-xs-5,
+form .col-sm-5,
+form .col-md-5,
+form .col-lg-5,
+form .col-xs-6,
+form .col-sm-6,
+form .col-md-6,
+form .col-lg-6,
+form .col-xs-7,
+form .col-sm-7,
+form .col-md-7,
+form .col-lg-7,
+form .col-xs-8,
+form .col-sm-8,
+form .col-md-8,
+form .col-lg-8,
+form .col-xs-9,
+form .col-sm-9,
+form .col-md-9,
+form .col-lg-9,
+form .col-xs-10,
+form .col-sm-10,
+form .col-md-10,
+form .col-lg-10,
+form .col-xs-11,
+form .col-sm-11,
+form .col-md-11,
+form .col-lg-11,
+form .col-xs-12,
+form .col-sm-12,
+form .col-md-12,
+form .col-lg-12 {
+  float: right;
+}
+
+.navbar-nav > .notifications-menu > .dropdown-menu > li.header,
+.navbar-nav > .messages-menu > .dropdown-menu > li.header,
+.navbar-nav > .tasks-menu > .dropdown-menu > li.header {
+  text-align: right;
+}
+
+.skin-blue .sidebar-menu > li.header > a {
+  padding: 0;
+}
+
+.skin-blue .sidebar-menu > li.header > a:hover {
+  background: transparent;
+  border-left-color: transparent;
+}
+
+.skin-blue .sidebar-menu > li.header:hover > a,
+.skin-blue .sidebar-menu > li.header.active > a {
+  color: #fff;
+  background: transparent;
+  border-left-color: transparent;
+}
+
+.table a {
+  margin-left: 10px;
+}
+
+.select2-container--krajee .select2-selection--single .select2-selection__placeholder {
+  color: #3c3c3c;
+}
+
+.upload-kit-input.error .error-popover {
+  font-size: 32px;
+  left: -18px;
+  top: -18px;
+  right: auto;
+}
+
+.upload-kit-input.error .popover {
+  top: -19px;
+  left: 14px;
+  display: block;
+  width: 218px;
+  text-align: center;
+}
+/*# sourceMappingURL=styleAr.css.map */

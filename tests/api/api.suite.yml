@@ -1,0 +1,9 @@
+suite_namespace: tests\api\functional
+actor: ApiTester
+modules:
+    enabled:
+        - REST:
+             # url: /api
+              depends: Yii2
+              part: Json
+        - Yii2:

@@ -1,0 +1,365 @@
+$Gray: #85a2b2;
+$Maincolor: #455a64;
+$black: #181c22;
+$blue: #009efb;
+body {
+    font-family: "Cairo", sans-serif !important;
+    direction: rtl;
+}
+
+.tooltip {
+    font-family: "Cairo", sans-serif !important;
+}
+
+.login-box,
+.register-box {
+    font-family: "Cairo", sans-serif !important;
+}
+
+.main-header .logo {
+    font-family: "Cairo", sans-serif !important;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cairo", sans-serif !important;
+}
+
+.upload-kit .upload-kit-input,
+.upload-kit .upload-kit-item {
+    float: right;
+    margin: 10px 0 0 0;
+}
+
+.upload-kit .files {
+    float: right;
+}
+
+.sidebar .user-profile .profile-img {
+    margin-right: 30px;
+}
+
+.navbar-nav>li {
+    float: right;
+}
+
+.close {
+    float: left !important;
+}
+
+.pull-right {
+    float: left !important;
+}
+
+.pull-left {
+    float: right !important;
+}
+
+.table thead th a,
+.table th a {
+    float: right;
+}
+
+.nav-tabs {
+    padding: 0;
+}
+
+.nav-tabs .header .hydrated {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.kv-tree-wrapper {
+    direction: ltr;
+    h1 {
+        direction: rtl;
+    }
+    .row {
+        .col-sm-3,
+        .col-sm-9 {
+            .kv-detail-container {
+                direction: rtl;
+            }
+        }
+    }
+}
+
+.kv-detail-crumbs {
+    padding-top: 10px;
+    float: right;
+    margin-right: 15px;
+}
+
+.checkbox input[type="checkbox"],
+label.checkbox-inline input[type="checkbox"] {
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.main-header .user-menu .dropdown-menu {
+    width: 340px;
+}
+
+.error img {
+    float: left;
+}
+
+.table-bordered>thead>tr>th,
+.table-bordered>thead>tr>td {
+    border-bottom-width: 2px;
+    text-align: right;
+}
+
+.nav-tabs>li {
+    float: right;
+}
+
+.table.detail-view th {
+    text-align: right;
+}
+
+.grid-form {
+    .form-group {
+        margin-right: 0;
+        margin-left: 1%;
+    }
+}
+
+.kv-grid-toolbar {
+    .dropdown-menu {
+        li {
+            a {
+                i {
+                    float: left;
+                }
+            }
+        }
+    }
+}
+
+.kv-checkbox-list {
+    li {
+        .checkbox {
+            label {
+                text-align: right;
+            }
+        }
+    }
+}
+
+.sidebar-mini.sidebar-collapse {
+    .profile-text {
+        display: none;
+    }
+    .profile-img {
+        margin: 0;
+        padding: 5px;
+        &::before {
+            display: none;
+        }
+    }
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-menu>li:hover>a>.pull-right-container {
+    right: 175px !important;
+}
+
+.error {
+    .col-xs-1,
+    .col-xs-2,
+    .col-xs-3,
+    .col-xs-4,
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-8,
+    .col-xs-9,
+    .col-xs-10,
+    .col-xs-11,
+    .col-xs-12 {
+        float: right;
+    }
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding-left: 0;
+    padding-right: 10px;
+    direction: rtl;
+}
+
+.kv-batch-create {
+    i {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+}
+
+.treeView {
+    .row {
+        .col-sm-3,
+        .col-sm-9,
+        .col-sm-6 {
+            float: right;
+            text-align: right;
+            direction: rtl;
+        }
+    }
+    .kv-tree-list {
+        .kv-node-icon {
+            float: right;
+            margin-right: 10px;
+        }
+    }
+    .kv-search-container {
+        float: left;
+        .kv-search-clear {
+            position: absolute;
+            padding: 10px;
+            right: auto;
+            left: 0;
+        }
+    }
+    .kv-tree li {
+        padding-left: 0;
+        border: dotted #333;
+        border-width: 0px 1px 1px 0px;
+        line-height: 1.9;
+        padding-right: 0.75em;
+    }
+    .kv-tree li ul {
+        border-top: 1px dotted #333;
+        margin-left: 0;
+        padding-left: 0;
+        margin-right: -0.75em;
+        padding-right: 1.4em;
+    }
+    ul.kv-tree,
+    .kv-tree ul {
+        padding-left: 0;
+        padding-right: 0.73em;
+    }
+    .kv-detail-heading .pull-right {
+        float: left !important;
+    }
+    .kv-detail-heading {
+        padding: 5px 15px 5px 5px;
+    }
+}
+
+.select2-container--krajee .select2-selection--single .select2-selection__clear {
+    right: auto;
+    left: 10px;
+}
+
+.btns-list {
+    .btn {
+        margin: 0 5px 0 0;
+    }
+}
+
+form {
+    .col-xs-1,
+    .col-sm-1,
+    .col-md-1,
+    .col-lg-1,
+    .col-xs-2,
+    .col-sm-2,
+    .col-md-2,
+    .col-lg-2,
+    .col-xs-3,
+    .col-sm-3,
+    .col-md-3,
+    .col-lg-3,
+    .col-xs-4,
+    .col-sm-4,
+    .col-md-4,
+    .col-lg-4,
+    .col-xs-5,
+    .col-sm-5,
+    .col-md-5,
+    .col-lg-5,
+    .col-xs-6,
+    .col-sm-6,
+    .col-md-6,
+    .col-lg-6,
+    .col-xs-7,
+    .col-sm-7,
+    .col-md-7,
+    .col-lg-7,
+    .col-xs-8,
+    .col-sm-8,
+    .col-md-8,
+    .col-lg-8,
+    .col-xs-9,
+    .col-sm-9,
+    .col-md-9,
+    .col-lg-9,
+    .col-xs-10,
+    .col-sm-10,
+    .col-md-10,
+    .col-lg-10,
+    .col-xs-11,
+    .col-sm-11,
+    .col-md-11,
+    .col-lg-11,
+    .col-xs-12,
+    .col-sm-12,
+    .col-md-12,
+    .col-lg-12 {
+        float: right;
+    }
+}
+
+.navbar-nav>.notifications-menu>.dropdown-menu>li.header,
+.navbar-nav>.messages-menu>.dropdown-menu>li.header,
+.navbar-nav>.tasks-menu>.dropdown-menu>li.header {
+    text-align: right;
+}
+
+.skin-blue .sidebar-menu>li.header>a {
+    padding: 0;
+}
+
+.skin-blue .sidebar-menu>li.header>a:hover {
+    background: transparent;
+    border-left-color: transparent;
+}
+
+.skin-blue .sidebar-menu>li.header:hover>a,
+.skin-blue .sidebar-menu>li.header.active>a {
+    color: #fff;
+    background: transparent;
+    border-left-color: transparent;
+}
+
+.table a {
+    margin-left: 10px;
+}
+
+.select2-container--krajee .select2-selection--single .select2-selection__placeholder {
+    color: #3c3c3c;
+}
+
+.upload-kit-input.error .error-popover {
+    font-size: 32px;
+    left: -18px;
+    top: -18px;
+    right: auto;
+}
+
+.upload-kit-input.error .popover {
+    top: -19px;
+    left: 14px;
+    display: block;
+    width: 218px;
+    text-align: center;
+}

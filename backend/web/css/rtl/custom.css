@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:400,600,700,900&display=swap&subset=arabic');
+
+/*---------------------------------- End of fonts ---------------------------------- */
+
+body {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.dropdown-item {
+    text-align: right;
+}
+
+.dropdown-footer,
+.dropdown-header {
+    text-align: center;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    padding-left: .5rem;
+}
+
+
+/*------------------------------------ contacts-list ------------------------------------*/
+
+.contacts-list-img {
+    float: right;
+}
+
+.contacts-list-info {
+    margin-right: 45px;
+    margin-left: 0;
+}
+
+
+/* sidebar */
+
+.sidebar>div:first-child {
+    direction: rtl;
+}
+
+.nav-icon {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.control-sidebar,
+.control-sidebar:before {
+    left: -250px;
+    right: auto;
+    transition: left .3s ease-in-out;
+}
+
+.control-sidebar-slide-open .control-sidebar,
+.control-sidebar-slide-open .control-sidebar:before {
+    left: 0;
+    right: auto;
+}
+
+.small-box .icon {
+    right: auto;
+    left: 10px;
+}
+
+.nav-sidebar .nav-link>p>.right {
+    left: 1rem;
+    right: auto;
+}
+
+.nav-sidebar>.nav-item .nav-icon {
+    margin-right: 0;
+    margin-left: 1.4rem;
+    float: right;
+}
+
+@media (min-width: 992px) {
+    .sidebar-mini.sidebar-collapse .content-wrapper,
+    .sidebar-mini.sidebar-collapse .main-footer,
+    .sidebar-mini.sidebar-collapse .main-header {
+        margin-right: 4.6rem;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .sidebar-mini.sidebar-collapse .content-wrapper,
+    .sidebar-mini.sidebar-collapse .main-footer,
+    .sidebar-mini.sidebar-collapse .main-header {
+        margin-left: 0rem !important;
+        margin-right: 4.6rem !important;
+        z-index: 100;
+    }
+    .sidebar-mini.sidebar-collapse .main-sidebar,
+    .sidebar-mini.sidebar-collapse .main-sidebar:before {
+        margin-right: 0;
+        width: 4.6rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .content-wrapper,
+    .main-footer,
+    .main-header {
+        transition: margin-right .3s ease-in-out;
+        margin-right: 250px;
+        margin-left: 0;
+        z-index: 3000;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .main-sidebar,
+    .main-sidebar:before {
+        box-shadow: none!important;
+        margin-right: -250px;
+        margin-left: 0;
+    }
+    .content-wrapper,
+    .content-wrapper:before,
+    .main-footer,
+    .main-footer:before,
+    .main-header,
+    .main-header:before {
+        margin-right: 0;
+    }
+    .sidebar-open .main-sidebar,
+    .sidebar-open .main-sidebar:before {
+        margin-right: 0;
+        z-index: 4000;
+    }
+}
+
+.sidebar-collapse .main-sidebar,
+.sidebar-collapse .main-sidebar:before {
+    margin-right: -250px;
+}
+
+.main-sidebar {
+    left: auto;
+    right: 0;
+    border-left: 1px solid #e3ebf6;
+    border-right: 0;
+}
+
+
+/* Cards */
+
+.card-header>.card-tools {
+    right: auto;
+    left: 1rem;
+}
+
+.user-block img {
+    float: right;
+}
+
+.attachment-block .attachment-img {
+    float: right;
+}
+
+.attachment-block .attachment-pushed {
+    margin-left: 0px;
+    margin-right: 110px;
+}
+
+.card-comments .card-comment img,
+.img-lg,
+.img-md,
+.img-sm,
+.user-block.user-block-sm img {
+    float: right;
+}
+
+.card-comments .comment-text {
+    margin-right: 40px;
+    margin-left: 0;
+}
+
+.card-comments .card-comment img+.img-push,
+.img-sm+.img-push,
+.user-block.user-block-sm img+.img-push {
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.user-block .comment,
+.user-block .description,
+.user-block .username {
+    margin-right: 50px;
+    margin-left: 0px;
+}
+
+.btn-group-vertical {
+    align-items: center;
+}
+
+
+/*------------------------- Form ----------------------------*/
+
+.select2-container .select2-search--inline {
+    float: right;
+}
+
+.select2-container--default .select2-search--inline .select2-search__field {
+    text-align: right;
+}
+
+
+/*----------------------- Extra Page ---------------------------*/
+
+.error-page>.headline {
+    float: right;
+}
+
+.error-page>.error-content {
+    margin-right: 190px;
+    margin-left: 0;
+}
+
+.lockscreen-image {
+    left: auto;
+    right: -10px;
+}
+
+.lockscreen-credentials {
+    margin-left: 0px;
+    margin-right: 70px;
+}
+
+.nav {
+    padding-inline-start: 0px !important;
+}
+
+
+/*---------------------------------- Persian Date Picker ---------------------------------- */
+
+.datepicker-plot-area {
+    font-family: 'Vazir', sans-serif;
+}
+
+.ml-auto {
+    margin-right: auto;
+    margin-left: unset !important;
+}
+
+.mr-auto {
+    margin-left: auto;
+    margin-right: unset !important;
+}
+
+.actionBtns .btn {
+    float: left;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.dropdown-menu-right {
+    right: auto;
+    left: 0;
+}
+
+.sidebar-collapse .content-wrapper,
+.sidebar-collapse .main-footer,
+.sidebar-collapse .main-header {
+    margin-right: 0;
+}
+
+.upload-kit .files {
+    float: right;
+}
+
+.upload-kit .upload-kit-input,
+.upload-kit .upload-kit-item {
+    float: right;
+}
+
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+    padding-right: 0.75rem;
+    padding-left: calc(1.5em + 0.75rem);
+    background-position: center left calc(0.375em + 0.1875rem);
+}
+
+.was-validated .form-control:valid,
+.form-control.is-valid {
+    padding-right: 0.75rem;
+    padding-left: calc(1.5em + 0.75rem);
+    background-position: center left calc(0.375em + 0.1875rem);
+}
+
+.alert-danger,
+.alert-error {
+    background-color: #f17b86!important;
+    border-color: #f17b86;
+}
+
+.alert-danger ul,
+.alert-error ul {
+    margin: 0 20px;
+}
+
+.content-wrapper,
+.right-side,
+.main-footer {
+    margin-left: 0;
+    margin-right: 250px;
+}
+
+.main-header .navbar {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.sidebar-mini.sidebar-collapse .main-header .navbar {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.card-title {
+    float: right;
+}
+
+.skin-blue .sidebar-menu>li>a {
+    padding: 10px 15px 10px 5px;
+}
+
+.content-header h1 {
+    text-align: right;
+}
+
+.input-group-html5 .input-group-addon+.form-control {
+    border-right: 0 !important;
+    border-left: 1px solid #ccc !important;
+}
+
+.input-group .input-group-addon:not(:last-child) {
+    border-right: 1px solid #d2d6de !important;
+    border-left: 0 !important;
+}
+
+.table td a {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.orgmanager {
+    direction: rtl;
+    text-align: right;
+}
+
+.upload-kit .upload-kit-input,
+.upload-kit .upload-kit-item {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.emptyassessment .img {
+    float: right;
+}
+
+.emptyassessment .name {
+    float: right;
+}
+
+
+/******************************************************************************/
+
+.content-wrapper,
+.main-footer,
+.main-header {
+    margin-right: 250px;
+}
+
+.dropdown-footer,
+.dropdown-header {
+    text-align: right;
+}
+
+.skin-blue .sidebar-menu>li>a i {
+    margin: 0;
+    margin-left: 5px;
+}
+
+.addOrg {
+    right: 15px;
+    left: auto;
+}
+
+.main-sidebar .logo img.en {
+    display: none;
+}
+
+.main-sidebar .logo img.ar {
+    display: block;
+}
+
+.fa-angle-left:before {
+    content: "\f104" !important;
+}
+
+.navbar-custom-menu>.navbar-nav>li>.dropdown-menu {
+    left: 20px;
+    right: 0;
+}
+
+.dropdown-menu {
+    left: 0;
+    right: auto;
+}
+
+.actionBtns .btn {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.user-menu .dropdown-toggle span div::before {
+    left: 15px;
+    right: auto;
+}
+
+

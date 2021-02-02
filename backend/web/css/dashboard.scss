@@ -1,0 +1,23 @@
+.table {
+  margin-bottom: 0;
+  td,
+  th {
+    padding: 10px 10px !important;
+    font-size: 13px;
+  }
+}
+.box {
+  .box-header {
+    padding: 15px 20px;
+    h3 {
+      font-size: 20px !important;
+    }
+  }
+}
+.content-header {
+  display: none;
+}
+.info-white .info-box-content {
+  padding: 22px 10px;
+  margin-left: 0 !important;
+}
